@@ -1,0 +1,57 @@
+/* style.css — selectors + single box model demo */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f8f8f8;
+  color: #333; /* inherited */
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Selectors demo */
+.intro {
+  color: green; /* class selector */
+}
+
+#unique {
+  color: blue; /* id selector */
+}
+
+a[target="_blank"] {
+  color: orange; /* attribute selector */
+  text-decoration: underline;
+}
+
+/* Box base styles */
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightgray;
+  text-align: center;
+  line-height: 100px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* BEFORE  */
+.zero {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: content-box; /* default */
+  background-color: #e0e0e0;
+}
+
+/* AFTER (applied box model) */
+.applied {
+  margin: 20px; /* space outside */
+  padding: 20px; /* space inside */
+  border: 5px solid black; /* border visible */
+  background-color: lightyellow;
+  box-sizing: content-box; /* total width = 200 + padding + border */
+}

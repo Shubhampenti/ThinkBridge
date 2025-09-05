@@ -1,0 +1,23 @@
+.DS_Store
+Thumbs.db
+
+# Node / web build
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Static caches / coverage
+.cache/
+coverage/

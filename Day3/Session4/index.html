@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+
+      <!-- CSS-only Hamburger -->
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a
+          <span class="highlight">Full Stack Java Developer</span> skilled in
+          Java, Spring Boot, Hibernate, JDBC, and database management. I enjoy
+          building secure, scalable, and user-friendly applications.
+        </p>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-cards">
+          <div class="card">
+            <h3>ScrapHub</h3>
+            <p><strong>Technologies:</strong> HTML, CSS, JavaScript, MySQL</p>
+            <p>
+              2024 – Developed an online scrap dealer platform with customer
+              booking and admin management panels. Integrated MySQL backend for
+              real-time pickup request handling and data storage. Designed a
+              responsive front-end interface with optimized UI/UX.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Employee Manager</h3>
+            <p><strong>Technologies:</strong> Java, Spring Boot, PostgreSQL</p>
+            <p>
+              2025 – Built a RESTful API system supporting CRUD operations for
+              employee records. Implemented Spring Boot microservices for
+              backend service integration with PostgreSQL. Followed best
+              practices for code reusability, modularity, and scalability.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:shubhampenti@email.com">shubhampenti@email.com</a>
+        </p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/shubham-penti/" target="_blank"
+            >linkedin.com/in/ShubhamPenti</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/Shubhampenti" target="_blank"
+            >github.com/ShubhamPenti</a
+          >
+        </p>
+        <p>Phone: <a href="tel:9112208846">9112208846</a></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 My Portfolio</p>
+    </footer>
+  </body>
+</html>

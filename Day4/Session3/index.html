@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Events Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- 1. Click event -->
+      <h2 id="textMsg">Click the button 👇</h2>
+      <button id="textBtn">Change Text</button>
+
+      <!-- 2. Mouseover event -->
+      <div class="colorBox"></div>
+
+      <!-- 3. Keyup event -->
+      <input type="text" id="nameInput" placeholder="Type your name" />
+      <p id="inputMsg"></p>
+
+      <!-- 4. Class update event -->
+      <h3 id="styleText">Make me stylish ✨</h3>
+      <button id="styleBtn">Toggle Style</button>
+
+      <!-- 5. submit event-->
+      <h2>Subscribe Form</h2>
+
+      <form id="subscribeForm">
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter your name"
+          required
+        />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="dom.js"></script>
+  </body>
+</html>
