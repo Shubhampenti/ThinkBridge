@@ -1,0 +1,38 @@
+/* Button hover effect */
+.btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+/* Card hover effect */
+.card {
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive image */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

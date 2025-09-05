@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Polish Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio – CSS Polish</h1>
+    </header>
+
+    <!-- Button with transition + transform -->
+    <button class="btn">Hover Me</button>
+
+    <!-- Card with hover effect -->
+    <div class="card">
+      <h2>My Project</h2>
+      <p>Hover on this card</p>
+    </div>
+
+    <!-- Responsive image -->
+    <section>
+      <h2>Responsive Image</h2>
+      <img
+        src="images/profile-medium.jpg"
+        srcset="
+          images/profile-small.jpg   480w,
+          images/profile-medium.jpg  768w,
+          images/profile-large.jpg  1200w
+        "
+        sizes="(max-width: 600px) 480px,
+             (max-width: 900px) 768px,
+             1200px"
+        alt="Profile Picture"
+      />
+    </section>
+  </body>
+</html>
