@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keywords Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>✨ Keywords Explorer ✨</h1>
+      <p>A delightful guide to HTML, CSS, and JavaScript keywords</p>
+      <input type="text" id="search" placeholder="🔍 Search keywords..." />
+      <div class="filter-buttons">
+        <button data-lang="all">All</button>
+        <button data-lang="html">HTML</button>
+        <button data-lang="css">CSS</button>
+        <button data-lang="js">JavaScript</button>
+      </div>
+      <select id="themeSelector">
+        <option value="navy">Navy / White / Gold</option>
+        <option value="purple">Dark Purple / Soft Pink / White</option>
+        <option value="green">Deep Green / Beige / Off-White</option>
+        <option value="teal">Teal / Orange / White</option>
+      </select>
+    </header>
+
+    <main>
+      <!-- HTML Section -->
+      <section id="html-section">
+        <h2>HTML Keywords</h2>
+        <div class="content"></div>
+      </section>
+
+      <!-- CSS Section -->
+      <section id="css-section">
+        <h2>CSS Keywords</h2>
+        <div class="content"></div>
+      </section>
+
+      <!-- JavaScript Section -->
+      <section id="js-section">
+        <h2>JavaScript Keywords</h2>
+        <div class="content"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>@ Create. Share. Inspire.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
