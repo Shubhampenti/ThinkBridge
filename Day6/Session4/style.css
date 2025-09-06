@@ -1,0 +1,209 @@
+/* Default Theme (Navy / Gold) */
+:root {
+  --bg: #fdfdfd;
+  --primary: #001f3f;
+  --accent: #daa520;
+  --card: white;
+  --text: #333;
+}
+
+/* General */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+/* Header */
+header {
+  background: var(--primary);
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+  margin: 0.2rem;
+}
+header p {
+  margin: 0.2rem 0 1rem;
+}
+header input,
+header select {
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+}
+header input {
+  width: 60%;
+  max-width: 400px;
+}
+header select {
+  cursor: pointer;
+}
+
+/* Layout */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1.2rem;
+  padding: 1.5rem;
+}
+
+/* Sections */
+section {
+  background: var(--card);
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+section:hover {
+  transform: translateY(-5px);
+}
+h2 {
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+h3 {
+  margin-top: 1rem;
+  color: var(--accent);
+}
+
+.keyword {
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: flex-start;
+  margin: 0.6rem 0;
+  padding: 0.6rem;
+  border-left: 5px solid var(--accent);
+  background: #f9f9ff;
+  border-radius: 8px;
+}
+.keyword strong {
+  font-size: 0.95rem;
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+.description {
+  font-size: 0.88rem;
+  color: var(--card);
+  margin-bottom: 6px;
+}
+
+.keyword code {
+  background: #eee;
+  padding: 2px 6px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: var(--primary);
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #fdf6fb;
+}
+
+/* Themes */
+body.purple {
+  --bg: #fdf6fb;
+  --primary: #4b0082;
+  --accent: #ff69b4;
+  --card: white;
+  --text: #222;
+}
+body.green {
+  --bg: #f9f8f3;
+  --primary: #006400;
+  --accent: #d2b48c;
+  --card: #fffaf5;
+  --text: #333;
+}
+body.teal {
+  --bg: #fdfefe;
+  --primary: #008080;
+  --accent: #ff6600;
+  --card: white;
+  --text: #222;
+}
+
+/* Example toggle button */
+.example-btn {
+  margin-top: 6px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 6px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s;
+  display: inline-block;
+}
+.example-btn:hover {
+  background: #b8860b;
+}
+
+/* Example block */
+.example {
+  display: none;
+  background: #222;
+  color: #f4f4f4;
+  padding: 0.8rem;
+  border-radius: 6px;
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  overflow-x: auto;
+  border: 1px solid #ddd;
+}
+.example code {
+  font-family: "Courier New", monospace;
+  white-space: pre-wrap;
+  color: #222;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+  margin-top: 10px;
+}
+.filter-buttons button {
+  margin: 5px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent);
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.filter-buttons button:hover {
+  background: #b8860b;
+}
+
+/* Keyword Card Style */
+.keyword {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0.8rem 0;
+  padding: 1rem;
+  border-left: 5px solid var(--accent);
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+.keyword:hover {
+  transform: translateY(-4px);
+}
