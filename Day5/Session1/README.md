@@ -1,4 +1,4 @@
-# Session 1 – Review 
+# Session 1 – Review
 
 This session was a **review of the last 4 days** of learning web development basics.  
 I revised **HTML, CSS, and JavaScript** concepts with practical exercises.
