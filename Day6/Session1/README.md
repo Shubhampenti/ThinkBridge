@@ -1,7 +1,7 @@
 # Session 1 – Basic HTML Layout
 
 ## Overview
-In this session, we created the basic HTML structure of the **Keywords Explorer** app.
+In this session, I created the basic HTML structure of the **Keywords Explorer** app.
 
 ## Files
 - `index.html`
